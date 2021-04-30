@@ -1,0 +1,50 @@
+body
+{
+margin:0px;
+background-color: whitesmoke;
+}
+label
+{
+font-size:20pt;
+text-align:center;
+}
+td
+{
+padding:10px;
+font-size :15pt;
+font-weight : bold;
+background-color : black;
+color: white;
+}
+tr
+{
+padding:10px;
+background-color : lightgray;
+}
+th
+{
+padding:10px;
+
+}
+table
+{
+
+border :solid black;
+}
+input[type="button"]
+{
+width:100px;
+height:40px;
+background-color: orange;
+color: black;
+}
+input[type="submit"]
+{
+width:100px;
+height:40px;
+background-color: orange;
+color: black;
+}
+label{
+font-size: 20pt;
+

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="day.css">
+      <link rel="stylesheet" type="text/css" href="slider2.css">
+
+    <link href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <style>
+.donation:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+          @keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+    </style>
+    </head>
+    <body>
+<!--        header-->
+        <header>
+        <div class="header">
+    <div class="header-content">
+							<div class="header-section left">
+				<ul>
+									<li><i class="fa fa-envelope">&nbsp;</i><a href="#">homeland@gmail.com</a></li>&nbsp;&nbsp;
+									<li><i class="fa fa-phone"></i>&nbsp;Contact Now :<a href="#">+91-9876543456</a></li>
+								</ul>
+        </div>
+                                <div class="header-section right">
+                                <ul>
+				
+									<li class="right"><a href="login.php">Login | </a></li>
+									<li><a href="register.php">Register</a></li>
+			
+                                    </ul>
+        </div>
+        <div class="donation">
+
+<!--<p>Hover over the image:</p>-->
+            <a href="donate.php"><img class="donation" src="donation.png" alt="don" width="80" height="80"></a>
+        </div>
+    </div>
+    </div>
+        </header>
+<!--        header-->
+
+<!--        menu-bar-->
+<!--        <div class="nikita">-->
+        <div class="menu-bar">
+            <h1 class="logo"><span>Home</span></h1><h5>Land</h5>
+            <p>For Special Children</p>
+         <div class="photo">
+ <img src="logo.jpg.jpg" width="80" height="60" align="center" >
+            </div>
+
+        <ul>
+            <li><a href="day.html">Home</a>
+            </li>
+            <li>Admission
+                <div class="submenu">
+            <ul>
+                <li><a href="admission1.html">Admission Details</a></li>
+                </ul>
+                </div>
+            </li>
+            <li><a herf="activity.html">Activity</a>
+                <div class="submenu">
+            <ul>
+                <li><a href=gallary.html>Gallery</a></li>
+            </ul>
+                </div>
+            </li>
+            <li><a href="eve.html">Events</a></li>
+            <li><a href="exhibition.html">Exhibition</a></li>
+            <li><a href="feedback.php">Feedback</a></li>
+                        <li><a href="donate.php">Donation</a></li>
+<li>Videos
+                <div class="submenu">
+            <ul>
+                <li><a href="onlinevide.html">Videos</a></li>
+                <li><a href="websitelinks.html">Website Links</a></li>
+                </ul>
+                </div>
+            </li>
+
+
+            </ul>
+        </div>
+        
+<!--        </div>-->
+<!--        menu-bar close-->
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img9.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="pro37.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="d1.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+        
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<!--        </div>          -->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    
+       
+        <div class="middle">
+
+           <p>Homeland for Special Childrens</p> 
+<h1>Aims and Objective</h1>
+<ul class="a1">
+
+<li>1.Project aims to develop a care center for Mentally Challanged Childrens with a goal,so that the children who do not have guardian or relative </li><li>to take care of them can have,"Home To Live In".</li>
+<li>2.Those childrens who have parents for them Fullday and Temporary facilities would be available.</li>
+<li>3.Special education,Training and Residential facilities to children can be available.</li>
+<li>4.Rehabilitation activities for Meantally Challanged Children can be conducted.</li>
+<li>Events for Parents and Childrens would be conducted.</li>
+</li>Online admission would be available.</li></ul>
+<h1>Significance </h1>
+<ul class="a1">
+<li>1.Admission types such as Fullday,Residential and temporary can be available.</li>
+<li>2.Childrens whould undergo vocational training to learn and lead decent life.</li>
+<li>3.To create awareness among the members of society about the formidable challanges faced by mentally challaned and to encourage their participation in all fields.</li>
+</ul>
+
+            </div>
+        
+<!--   footer part-->
+        <footer>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h1 class="logo-text"><span>Home</span>Land</h1><h5>For Special Children</h5><br>
+           <p>We provide a shelter to children who does not have parents to take care of them.</p>
+           <br> <div class="contact">
+                <span><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;Modern Collge,Pune-05</span>
+                <span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;+91-9876543456</span>
+       <span><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;homeland@gmail.com</span>
+            </div>
+            <div class="social-media">
+                
+<!--                <li class="facebook">-->
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i></a>
+<!--                <li class="instagram">-->
+<a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+<!--                <li class="youtube">-->
+                    <a href="htps://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+<!--                <li class="twitter">-->
+                    <a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.whatsapp.com"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                 </div>
+            </div>
+                    <div class="footer-section
+
+ links">
+            <h2>Quick Links</h2>
+            <br>
+                        <ul>
+                        <a href="day.html"><li>Home</li></a>
+        <a href="admission1.html"><li>Admission</li></a>
+        <a href="acitivity.html"><li>Activity</li></a>
+        <a href="eve.html"><li>Events</li></a>
+        <a href="exhibition.html"><li>Exhibition</li></a>
+         <a href="feedback.php"><li>Feedback</li></a>
+                        </ul>
+            
+            </div>
+            <div class="footer-section contact-form">
+                <h2>Contact Us</h2><br>
+            <form action="contact.php" method="POST">
+                <input type="email" name="email" class="text-input contact-input" placeholder="Enter email">
+                <textarea name="message" class="text-input contact-input" placeholder="Message"></textarea>
+                <button type="submit" name=submit class="btn btn-big contact-btn">
+                    <i class="fa fa-paper-plane"></i>
+                    Send
+            </button>
+
+                </form>     
+          </div>      
+        </div>
+      <div class="footer-bottom">
+        copyright &copy;Homeland For Special Children 2020.All rights reserved. 
+        </div>     
+        </div>     
+    </footer>
+    </body>
+</html>

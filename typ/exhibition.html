@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+width:100%;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+width:100%;
+
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+.header
+{
+background-color: turquoise;
+width:100%;
+height:70%;
+text-align : center;
+border-color : black;
+border :solid black;
+}
+h1 {
+  font-size: 50px;
+
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+.row .column .content h3
+{
+font-size:30pt;
+color: teal;
+font-weight: Bold
+}
+.row .column .content p
+{
+font-size:15pt;
+font-weight: Bold
+}
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+.header input[type=button]{
+background-color: orange;
+width: 100%;
+color : black;
+height :30%;
+}
+.header input[type=button] :hover
+{
+height :50%;
+transition :all .3s;
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+
+<div class="header">
+<input type="button" onclick="location.href='day.html'"; value="HOME PAGE"/></botton>
+<h1>Exhibition Memories</h1>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="pro1.jpg" alt="Mountains" style="width:100%">
+      <h3>HandMade Bags</h3>
+      <p>Exhibition was held on 22 Feb 2018.People buy many products made by this childrens</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="pro8.jpg" alt="Lights" style="width:100%">
+      <h3>Handmade Flowers</h3>
+      <p>Exhibition was held on 25 Apr 2018.Response was good.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="pro10.jpg" alt="Nature" style="width:100%">
+      <h3>Decoration Material</h3>
+      <p>Exhibition was held on 10 Sept 2019.Different kinds of decorative material likes flowers,flowerpot etc.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="pro12.jpg" alt="Mountains" style="width:100%">
+      <h3>Cloths Bags</h3>
+      <p>Exhibition was held on 11 Nov 2019.Colorful handbags and cloths bags.</p>
+    </div>
+  </div>
+</div>
+<div class="row">
+<div class="column">
+<div class="content">
+  <img src="pro14.jpg" alt="Bear" style="width:100%">
+  <h3>Colorful Gifts</h3>
+  <p>Exhibition was held on 20 Dec 2019.Innovative Gifts and Surprise Gifts.</p>
+</div>
+</div>
+<div class="column">
+<div class="content">
+  <img src="pro15.jpg" alt="Bear" style="width:100%">
+  <h3>Colorful Covers</h3>
+  <p>Exhibition was held on 30 Jan 2019.Innovative Gifts and Surprise Gifts.</p>
+</div>
+</div>
+<div class="column">
+<div class="content">
+  <img src="pro16.jpg" alt="Bear" style="width:100%">
+  <h3>Paper Bags</h3>
+  <p>Exhibition was held on 21 Dec 2019.Useful paper bags and many more.</p>
+</div>
+</div>
+<div class="column">
+<div class="content">
+  <img src="pro22.jpg" alt="Bear" style="width:100%">
+  <h3>For Home</h3>
+  <p>Exhibition was held on 20 Feb 2019.All material required in home was there in exhibition.</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>
+
