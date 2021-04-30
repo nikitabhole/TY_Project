@@ -1,0 +1,285 @@
+	 body
+		{
+			
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 70px;
+			background-color:whitesmoke;
+/*			background-image: url('download%20(1).jpg');*/
+			background-size:contain;
+			font-family: cursive;
+		}
+#regForm {
+/*
+  background-image: url('download%20(1).jpg');
+  background-size:cover;
+*/
+	background: rgba(0,0,0,0.6);
+height:100%;
+/*
+  margin: 100px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+*/
+}
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: whitesmoke;
+}
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 20px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+		.container
+		{
+		position: relative;
+			width: 880px;
+			min-height: 1010px;
+			background-color :whitesmoke;
+			box-shadow: 0 5px 15px rgba(0,0,0,1);
+		}
+	
+		.form
+		{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			padding: 40px;
+			box-sizing:border-box;
+			z-index:1;
+			
+		}
+		.form h2
+		{
+			text-align: center;
+			margin:10px;
+			padding: 10px;
+			color:sandybrown;
+			font-size:40px;
+		}
+		.form .inputBox
+		{
+		width:450px;
+			margin-top: 40px;
+			
+		}
+		.form .inputBox input
+	{
+		width: 260%;
+		background: transparent;
+		border: none;
+		border-bottom: 2px solid #fff;
+		outline: none;
+		font-size: 18px;
+		color: #fff;
+		padding:5px 0;
+		font-family: consolas;
+		}
+
+		
+			.form .inputBox1
+		{
+		width:500px;
+			margin-top: 50px;
+			
+		}
+		.form .inputBox1 input
+	{
+		width: 199%;
+		background: transparent;
+		border: none;
+		border-bottom: 2px solid #fff;
+		outline: none;
+		font-size: 18px;
+		color: #fff;
+		padding:5px 0;
+		font-family: consolas;
+		}
+
+.form .tab .inputBox input[type="button"]
+		{
+		
+			background: #fff;
+			color:#000;
+			border:black;
+/*			max-height: 70px;*/
+			font-weight:700;
+			height: 40px;
+			width:90px;
+			
+			
+		}
+
+.form .tab .inputBox1 input[type="submit"]
+		{
+		
+			background: #fff;
+			color:#000;
+			border:black;
+/*			max-height: 70px;*/
+			font-weight:700;
+			height: 40px;
+			width:50px;
+			
+			
+		}
+			.form .inputBox2
+		{
+		width:500px;
+			margin-top: 20px;
+			
+		}
+		.form .inputBox2 input
+	{
+		width: 199%;
+		background: transparent;
+		border: none;
+		border-bottom: 2px solid #fff;
+		outline: none;
+		font-size: 18px;
+		color: #fff;
+		padding:5px 0;
+		font-family: consolas;
+		}
+		
+		::placeholder
+		{
+			color:darkgrey;
+		}
+		.form .inputBox input[type="submit"]
+		{
+		
+			background: #fff;
+			color:#000;
+			border:none;
+			font-weight:800;
+			max-width: 100px;
+			cursor:pointer;
+		}
+.form .inputBox input[type="radio"]
+		{
+		 padding: 2;
+    box-sizing: border-box;
+    width: 15px;
+    height: 20px;
+			color:#eee;
+			
+		}
+
+	.form .tab .inputBox1 input[type="button"]
+		{
+		
+			background: #fff;
+			color:#000;
+			border:black;
+/*			max-height: 70px;*/
+			font-weight:700;
+			height: 40px;
+			width:90px;
+			
+			
+		}
+
+		.form p
+		{
+			color:cyan;
+		}
+		
+		
+		.form .p3
+		{
+			perspective-origin:center;
+			font-size: 30px;
+			color:bisque;
+		}
+
+		.form .p1 
+		{	
+			font-size: 30px;
+			color:bisque;
+             
+		}
+		.form .p4 
+		{	
+			font-size: 30px;
+			color:bisque;
+		}
+		.form p a
+		{
+			color:#fff;
+		}
+
+	.form .inputBox td
+		{
+			color:#eee;
+font-size:15pt;
+width:60%;
+			
+		}
+		
+		.form .inputBox1 td
+		{
+			color:#eee;
+font-size:15pt;
+width:60%;
+			
+		}
+.form .inputBox2 td
+		{
+			color:#eee;
+font-size:15pt;
+			
+		}
+		.form .inputBox1 input[type="radio"]
+		{
+		 padding: 3;
+    box-sizing: border-box;
+    width: 10px;
+    height: 15px;
+			color:#eee;
+			
+		}
+.form .inputBox2 input[type="radio"]
+		{
+		 padding: 2;
+	 box-sizing:border-box;
+        width: 15px;
+        height: 20px;
+			color:#eee;
+			
+		}
+
